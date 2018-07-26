@@ -1,0 +1,4 @@
+Projet realise sans les bonus, tout fonctionne, mais l'utilisation d'un "petit" buffer et surtout d'une chaine de caracteres a taille statique nous as valu un crash lors d'un test avec une entree de 1000x1000.
+Pour palier ce probleme il faut utiliser malloc, lire un buffer de taille correcte ~4096 ou < puis le concatener a notre string de sortie, en reallouant le string et copier l'ancien string ainsi que le buffer lu.
+
+Projet realise par : Rodolphe le Ru et Maori Benhassine.

@@ -1,0 +1,2 @@
+Solved the Match with a recursive, either advancing in string 1 or string 2, each time comparing if they match with no star (if there is one), going further in both is the first character matchs after the previous tests.
+

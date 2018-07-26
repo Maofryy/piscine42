@@ -1,0 +1,7 @@
+The sudoku solving is near complete, had to change it to handle multiple solutions, but search for ALL the possible solutions instread of stopping if it finds two, so empty grids are takin" kinda long to complete with brute force.
+Malloc were protected int create function, but the NULL return wasn't used in the main loop calling the create function, resulted in CRASH.
+We didn't either handled the case of a full grid with no solution, maybe hould had it to the check function, wichi should find 2 of the same number in at least on raw column or block.
+Sudoku solved using brute force with backtracking.
+Multiple solution exists, one that look interesting is with a 3D tab, counting the possbilities of a number in one case, adding the value to the cases with only one solution. Then checking again, and MAYBE do smth for 2 or 3 solutions cases but its only in rare cases.
+
+Rush realised with : Antoine Fonck , Camille Seguier et Maori Benhassine

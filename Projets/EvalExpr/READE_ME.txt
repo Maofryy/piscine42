@@ -1,0 +1,2 @@
+Used stacks (created in chained lists) to read and do the operations of the input,
+Could have done it 100% if handled the case of "-nb..." or "- nb ...". But works for every other "valid" input.
